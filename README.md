@@ -29,7 +29,7 @@ Installation
 利用したいディレクトリでgit clone https://github.com/Futafi/environ.git してください。
 その後
 
-    >>> import kuge
+    >>> import environ
 
 を行ってください。
 
