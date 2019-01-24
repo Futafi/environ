@@ -23,12 +23,23 @@ environ:
 
 みたいな感じです。
 
+keyの小文字は大文字に変わります。
+
 Installation
 -------------
 
-利用したいディレクトリでgit clone https://github.com/Futafi/environ.git してください。
+こんな感じの構成で使います。
+
+    src/
+    ├ environ/
+    │    └ __init__.py
+    ├ main.py
+    └ .env
+    
+srcディレクトリでgit clone https://github.com/Futafi/environ.git してください。
 その後
 
+    main.py
     >>> import environ
 
 を行ってください。
