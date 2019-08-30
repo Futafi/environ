@@ -3,7 +3,7 @@ environ:
 .envファイルから何か取得します。
 
 
-使い方的な
+Usage
 -------------
 
     .env
@@ -28,22 +28,8 @@ keyの小文字は大文字に変わります。
 Installation
 -------------
 
-こんな感じの構成で使います。
 
-    src/
-    ├ environ/
-    │    └ __init__.py
-    ├ main.py
-    └ .env
-    
-srcディレクトリでgit clone https://github.com/Futafi/environ.git してください。
-その後
+    $ pip install https://github.com/Futafi/environ.git
 
-    main.py
-    >>> import environ
-
-を行ってください。
-
-.envファイルはpythonを実行するフォルダに置きます。
 
 .. _`the repository`: https://github.com/Futafi/environ.git
