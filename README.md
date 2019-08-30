@@ -29,7 +29,7 @@ Installation
 -------------
 
 
-    $ pip install https://github.com/Futafi/environ.git
+    $ pip install git+https://github.com/Futafi/environ.git
 
 
 .. _`the repository`: https://github.com/Futafi/environ.git
